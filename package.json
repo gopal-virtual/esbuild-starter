@@ -1,0 +1,12 @@
+{
+  "name": "@gvirtual/es-create-app",
+  "version": "0.0.1",
+  "description": "scaffold esbuild powered web app",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Gopal Ojha",
+  "license": "MIT",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}

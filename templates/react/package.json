@@ -1,0 +1,17 @@
+{
+  "name": "es-react-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node ./scripts/build.dev.js",
+    "build": "node ./scripts/build.prod.js",
+    "serve": "npx live-server ."
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.9.2"
+  }
+}
