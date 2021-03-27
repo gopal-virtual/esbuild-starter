@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const path = require("path");
 const { prompt } = require("enquirer");
@@ -10,7 +12,7 @@ async function init() {
     name: "template",
     message: "Pick a template",
     // todo: fetch available templates dynamically
-    choices: ["react", "react-ts"],
+    choices: ["react"],
   });
 
   // get dir name from cmd arg

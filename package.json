@@ -1,12 +1,33 @@
 {
-  "name": "@gvirtual/es-create-app",
+  "name": "@gvirtual/create-esbuild-starter",
   "version": "0.0.1",
-  "description": "scaffold esbuild powered web app",
+  "description": "Scaffold esbuild powered web app",
+  "bin": {
+    "create-app": "index.js"
+  },
+  "files": [
+    "index.js",
+    "templates"
+  ],
   "main": "index.js",
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopal-virtual/es-create-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gopal-virtual/es-create-app/issues"
+  },
   "scripts": {},
   "author": "Gopal Ojha",
   "license": "MIT",
   "dependencies": {
     "enquirer": "^2.3.6"
+  },
+  "homepage": "https://github.com/gopal-virtual/es-create-app#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }
